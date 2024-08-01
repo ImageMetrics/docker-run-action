@@ -29,5 +29,5 @@ inputs:
     default: ${{ job.container.network }}
     required: false
 runs:
-  using: 'node20'
+  using: 'node16'
   main: 'action.js'
